@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { List } from "@phosphor-icons/react";
+import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "../ui/button";
 import Logo from "./Logo";
@@ -29,7 +29,7 @@ export default function Header() {
                 className="rounded-full"
                 aria-label="Open navigation menu"
               >
-                <List size={20} />
+              <Menu />
               </Button>
             }
           />
